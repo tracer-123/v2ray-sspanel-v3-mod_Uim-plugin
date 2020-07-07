@@ -3,9 +3,10 @@ package Manager
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/rico93/v2ray-sspanel-v3-mod_Uim-plugin/client"
-	"github.com/rico93/v2ray-sspanel-v3-mod_Uim-plugin/model"
 	"strconv"
+
+	"github.com/tracer-123/v2ray-sspanel-v3-mod_Uim-plugin/client"
+	"github.com/tracer-123/v2ray-sspanel-v3-mod_Uim-plugin/model"
 	"v2ray.com/core/common/errors"
 	"v2ray.com/core/common/serial"
 	"v2ray.com/core/infra/conf"

@@ -3,10 +3,11 @@ package utility
 import (
 	"crypto/md5"
 	"fmt"
-	"github.com/shirou/gopsutil/host"
-	"github.com/shirou/gopsutil/load"
 	"math/rand"
 	"time"
+
+	"github.com/shirou/gopsutil/host"
+	"github.com/shirou/gopsutil/load"
 )
 
 func InStr(s string, list []string) bool {
